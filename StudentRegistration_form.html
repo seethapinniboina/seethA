@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <hr />
+    <form action="/action_page.php">
+      <table style="width: 50%">
+        <tr>
+          <td>
+            <label for="name">Name:</label>
+          </td>
+          <td>
+            <input type="text" id="name" name="name" value="" /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email:</label>
+          </td>
+          <td>
+            <input type="email" id="mail" name="email" value="" /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="number">Mobile Number:</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              value=""
+            /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender:</label>
+          </td>
+          <td>
+            <input type="radio" id="male" name="for_gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="for_gender" value="Female" />
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="for_gender" value="others" />
+            <label for="others">Others</label><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="date_of_birth">Date Of Birth:</label>
+          </td>
+          <td>
+            <input
+              type="date"
+              id="date_of_birth"
+              name="date_of_birth"
+              value=""
+            /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address:</label>
+          </td>
+          <td>
+            <textarea rows="6" cols="40" name="address"></textarea><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="course">Course:</label>
+          </td>
+          <td>
+            <input type="checkbox" id="html" name="for_course" value="Html" />
+            <label for="html">Html</label>
+            <input
+              type="checkbox"
+              id="javascript"
+              name="for_course"
+              value="Javascript"
+            />
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" id=".net" name="for_course" value=".Net" />
+            <label for=".Net">.Net</label>
+            <input
+              type="checkbox"
+              id="python"
+              name="for_course"
+              value="Python"
+            />
+            <label for="Python">Python</label><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="file">Photo:</label>
+          </td>
+          <td><input type="file" id="file" name="file" /><br /><br /></td>
+        </tr>
+      </table>
+      <hr />
+      <table>
+        <tr>
+          <td>
+            <input type="submit" formtarget="_blank" value="submit" />
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
